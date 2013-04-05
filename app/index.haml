@@ -1,12 +1,29 @@
 !!!
 %html
   %head
-    %title []
+    %title Settlers
     %meta{:charset => "UTF-8"}
 
     %link{:rel => "stylesheet", :href => "assets/app.css", :type => "text/css", :media => "screen"}
 
   %body
-    Hello!
+    %article#settlers.settlers
+    %article.results
 
+
+    %script{:type => 'text/javascript'}
+      var TEST = false;
+
+    %script{:type => 'text/javascript', :src => 'assets/buildings/building.js'}
+    %script{:type => 'text/javascript', :src => 'assets/buildings/home.js'}
+    %script{:type => 'text/javascript', :src => 'assets/buildings/mill.js'}
+    %script{:type => 'text/javascript', :src => 'assets/buildings/wood_cutter_house.js'}
+    %script{:type => 'text/javascript', :src => 'assets/buildings/sawmill.js'}
+    %script{:type => 'text/javascript', :src => 'assets/buildings/building_render.js'}
+    %script{:type => 'text/javascript', :src => 'assets/building_render_test.js'}
+    %script{:type => 'text/javascript', :src => 'assets/creatures/creature.js'}
+    %script{:type => 'text/javascript', :src => 'assets/creatures/gnome.js'}
+    %script{:type => 'text/javascript', :src => 'assets/raphael-min.js'}
+    %script{:type => 'text/javascript', :src => 'assets/grid.js'}
     %script{:type => 'text/javascript', :src => 'assets/app.js'}
+

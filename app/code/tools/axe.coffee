@@ -1,0 +1,1 @@
+class window.Axe extends Tool

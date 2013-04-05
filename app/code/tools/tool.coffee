@@ -1,0 +1,2 @@
+class window.Tool
+  constructor: () ->

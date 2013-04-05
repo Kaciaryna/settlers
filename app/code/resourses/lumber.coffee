@@ -1,0 +1,1 @@
+class window.Lumber extends Resource

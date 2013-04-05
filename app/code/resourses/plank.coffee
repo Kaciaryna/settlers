@@ -1,0 +1,1 @@
+class window.Plank extends Resource
